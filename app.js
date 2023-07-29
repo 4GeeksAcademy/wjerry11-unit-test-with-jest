@@ -17,3 +17,8 @@ function fromYenToPound (yen){
     pound=yen * 0.8
     return pound
 }
+module.exports={
+    fromDollarToYen,
+    fromYenToPound,
+    fromEuroToDollar,
+}
